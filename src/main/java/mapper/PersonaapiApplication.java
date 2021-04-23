@@ -1,4 +1,4 @@
-package one.digitalinnovation.personaapi;
+package mapper;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PersonaapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PersonaapiApplication.class, args);
+		SpringApplication.run(PersonaapiApplication.class, args); 
 	}
 
 }
