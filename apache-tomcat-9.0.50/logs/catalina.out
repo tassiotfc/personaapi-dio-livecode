@@ -1,0 +1,137 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Aug-2021 13:49:23.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.50
+06-Aug-2021 13:49:23.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 28 2021 08:46:44 UTC
+06-Aug-2021 13:49:23.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.50.0
+06-Aug-2021 13:49:23.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Aug-2021 13:49:23.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+06-Aug-2021 13:49:23.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Aug-2021 13:49:23.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+06-Aug-2021 13:49:23.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu118.04.1
+06-Aug-2021 13:49:23.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+06-Aug-2021 13:49:23.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50
+06-Aug-2021 13:49:23.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50
+06-Aug-2021 13:49:23.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Aug-2021 13:49:23.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Aug-2021 13:49:23.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Aug-2021 13:49:23.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Aug-2021 13:49:23.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Aug-2021 13:49:23.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/conf/logging.properties
+06-Aug-2021 13:49:23.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Aug-2021 13:49:23.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Aug-2021 13:49:23.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Aug-2021 13:49:23.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Aug-2021 13:49:23.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Aug-2021 13:49:23.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50
+06-Aug-2021 13:49:23.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50
+06-Aug-2021 13:49:23.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/temp
+06-Aug-2021 13:49:23.614 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+06-Aug-2021 13:49:24.518 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Aug-2021 13:49:24.571 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1617] milliseconds
+06-Aug-2021 13:49:24.686 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Aug-2021 13:49:24.686 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.50]
+06-Aug-2021 13:49:24.732 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/personaapi-0.0.1-SNAPSHOT.war]
+06-Aug-2021 13:49:27.009 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.5)
+
+2021-08-06 13:49:28.510  INFO 29488 --- [           main] com.person.PersonaapiApplication         : Starting PersonaapiApplication v0.0.1-SNAPSHOT using Java 11.0.6 on tassio-Inspiron-5558 with PID 29488 (/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/personaapi-0.0.1-SNAPSHOT/WEB-INF/classes started by tassio in /home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/bin)
+2021-08-06 13:49:28.521  INFO 29488 --- [           main] com.person.PersonaapiApplication         : No active profile set, falling back to default profiles: default
+2021-08-06 13:49:29.739  INFO 29488 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1111 ms
+2021-08-06 13:49:30.656  INFO 29488 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-06 13:49:30.992  INFO 29488 --- [           main] com.person.PersonaapiApplication         : Started PersonaapiApplication in 3.388 seconds (JVM running for 8.54)
+06-Aug-2021 13:49:31.094 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/personaapi-0.0.1-SNAPSHOT.war] has finished in [6,362] ms
+06-Aug-2021 13:49:31.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/examples]
+06-Aug-2021 13:49:31.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/examples] has finished in [256] ms
+06-Aug-2021 13:49:31.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/docs]
+06-Aug-2021 13:49:31.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/docs] has finished in [23] ms
+06-Aug-2021 13:49:31.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/host-manager]
+06-Aug-2021 13:49:31.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/host-manager] has finished in [29] ms
+06-Aug-2021 13:49:31.405 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/manager]
+06-Aug-2021 13:49:31.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/manager] has finished in [24] ms
+06-Aug-2021 13:49:31.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/ROOT]
+06-Aug-2021 13:49:31.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/ROOT] has finished in [17] ms
+06-Aug-2021 13:49:31.453 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Aug-2021 13:49:31.508 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6936] milliseconds
+2021-08-06 13:49:31.610  INFO 29488 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-06 13:49:31.613  INFO 29488 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+06-Aug-2021 16:13:07.656 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Aug-2021 16:13:07.710 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Aug-2021 16:13:07.720 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+2021-08-06 16:13:07.874  INFO 29488 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+06-Aug-2021 16:13:08.374 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Aug-2021 16:13:08.434 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Aug-2021 23:08:40.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.50
+06-Aug-2021 23:08:40.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 28 2021 08:46:44 UTC
+06-Aug-2021 23:08:40.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.50.0
+06-Aug-2021 23:08:40.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Aug-2021 23:08:40.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+06-Aug-2021 23:08:40.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Aug-2021 23:08:40.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+06-Aug-2021 23:08:40.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu118.04.1
+06-Aug-2021 23:08:40.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+06-Aug-2021 23:08:40.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50
+06-Aug-2021 23:08:40.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50
+06-Aug-2021 23:08:41.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Aug-2021 23:08:41.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Aug-2021 23:08:41.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Aug-2021 23:08:41.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Aug-2021 23:08:41.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Aug-2021 23:08:41.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/conf/logging.properties
+06-Aug-2021 23:08:41.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Aug-2021 23:08:41.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Aug-2021 23:08:41.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Aug-2021 23:08:41.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Aug-2021 23:08:41.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Aug-2021 23:08:41.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50
+06-Aug-2021 23:08:41.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50
+06-Aug-2021 23:08:41.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/temp
+06-Aug-2021 23:08:41.015 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+06-Aug-2021 23:08:41.669 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Aug-2021 23:08:41.772 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1433] milliseconds
+06-Aug-2021 23:08:41.936 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Aug-2021 23:08:41.936 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.50]
+06-Aug-2021 23:08:41.994 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/personaapi-0.0.1-SNAPSHOT.war]
+06-Aug-2021 23:08:42.030 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/personaapi-0.0.1-SNAPSHOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+06-Aug-2021 23:08:44.245 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.5)
+
+2021-08-06 23:08:45.477  INFO 28693 --- [           main] com.person.PersonaapiApplication         : Starting PersonaapiApplication v0.0.1-SNAPSHOT using Java 11.0.6 on tassio-Inspiron-5558 with PID 28693 (/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/personaapi-0.0.1-SNAPSHOT/WEB-INF/classes started by tassio in /home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/bin)
+2021-08-06 23:08:45.487  INFO 28693 --- [           main] com.person.PersonaapiApplication         : No active profile set, falling back to default profiles: default
+2021-08-06 23:08:46.623  INFO 28693 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1078 ms
+2021-08-06 23:08:47.424  INFO 28693 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-06 23:08:47.719  INFO 28693 --- [           main] com.person.PersonaapiApplication         : Started PersonaapiApplication in 3.137 seconds (JVM running for 8.311)
+06-Aug-2021 23:08:47.762 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/personaapi-0.0.1-SNAPSHOT.war] has finished in [5,768] ms
+06-Aug-2021 23:08:47.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/examples]
+06-Aug-2021 23:08:48.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/examples] has finished in [1,162] ms
+06-Aug-2021 23:08:48.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/docs]
+06-Aug-2021 23:08:48.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/docs] has finished in [26] ms
+06-Aug-2021 23:08:48.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/host-manager]
+06-Aug-2021 23:08:48.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/host-manager] has finished in [33] ms
+06-Aug-2021 23:08:48.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/manager]
+06-Aug-2021 23:08:49.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/manager] has finished in [25] ms
+06-Aug-2021 23:08:49.013 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/ROOT]
+06-Aug-2021 23:08:49.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tassio/workspace-java/personaapi/apache-tomcat-9.0.50/webapps/ROOT] has finished in [37] ms
+06-Aug-2021 23:08:49.055 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Aug-2021 23:08:49.086 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7313] milliseconds
+2021-08-06 23:10:14.175  INFO 28693 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-06 23:10:14.176  INFO 28693 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+06-Aug-2021 23:49:48.547 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Aug-2021 23:49:48.566 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Aug-2021 23:49:48.590 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+2021-08-06 23:49:48.786  INFO 28693 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+06-Aug-2021 23:49:48.802 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Aug-2021 23:49:48.839 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
